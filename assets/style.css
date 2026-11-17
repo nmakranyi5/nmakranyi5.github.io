@@ -48,3 +48,4 @@ footer{padding-top:2rem;padding-bottom:2.5rem;color:var(--muted);font-size:.88re
 .timeline .tags{margin-top:.2rem}
 .sub-h{margin-top:2.5rem}
 .nav nav a[aria-current]{color:var(--text)}
+.card.feat{border-color:var(--accent)}@media (min-width:900px){.card.feat{grid-column:1/-1}}
