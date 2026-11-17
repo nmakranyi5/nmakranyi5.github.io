@@ -49,3 +49,4 @@ footer{padding-top:2rem;padding-bottom:2.5rem;color:var(--muted);font-size:.88re
 .sub-h{margin-top:2.5rem}
 .nav nav a[aria-current]{color:var(--text)}
 .card.feat{border-color:var(--accent)}@media (min-width:900px){.card.feat{grid-column:1/-1}}
+.shot{width:100%;height:300px;object-fit:cover;object-position:top;border-radius:10px;border:1px solid var(--border);margin-bottom:1rem;background:var(--bg)}
