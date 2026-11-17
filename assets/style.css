@@ -47,3 +47,4 @@ footer{padding-top:2rem;padding-bottom:2.5rem;color:var(--muted);font-size:.88re
 .sub{color:var(--text)!important;font-size:.95rem;margin:0 0 .2rem}
 .timeline .tags{margin-top:.2rem}
 .sub-h{margin-top:2.5rem}
+.nav nav a[aria-current]{color:var(--text)}
