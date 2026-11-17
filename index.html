@@ -3,23 +3,19 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Your Name — Software Engineer</title>
-  <meta name="description" content="Portfolio of Your Name, a new-grad software engineer building reliable, well-crafted software.">
-  <meta property="og:title" content="Your Name — Software Engineer">
-  <meta property="og:description" content="New-grad software engineer. Projects, experience, and contact.">
+  <title>Nikolas Makranyi — Software Engineer</title>
+  <meta name="description" content="Portfolio of Nikolas Makranyi, a new-grad software engineer building cross-platform apps and backend systems.">
+  <meta property="og:title" content="Nikolas Makranyi — Software Engineer">
+  <meta property="og:description" content="New-grad software engineer: projects, experience, and contact.">
   <meta name="theme-color" content="#0b0d12">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%236366f1'/><text x='50' y='68' font-size='56' text-anchor='middle' fill='white' font-family='monospace'>&gt;_</text></svg>">
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-  <!--
-    EDIT ME: search this file for "Your Name", "you@example.com", and the
-    PLACEHOLDER comments, then replace with your real details.
-  -->
   <a class="skip" href="#main">Skip to content</a>
 
   <header class="nav">
-    <a class="logo" href="#top" aria-label="Home">&gt;_ yourname</a>
+    <a class="logo" href="#top" aria-label="Home">&gt;_ nikolas</a>
     <nav aria-label="Primary">
       <a href="#projects">Projects</a>
       <a href="#experience">Experience</a>
@@ -32,58 +28,67 @@
   <main id="main">
     <section class="hero" id="top">
       <p class="eyebrow reveal">Hi, I'm</p>
-      <h1 class="reveal">Your Name.<br><span class="grad">I build software that works.</span></h1>
+      <h1 class="reveal">Nikolas Makranyi.<br><span class="grad">I build apps people use.</span></h1>
       <p class="lead reveal">
-        New-grad software engineer with a B.S. in Computer Science
-        (<!-- PLACEHOLDER -->University, 2026). I like backend systems,
-        clean APIs, and polished web interfaces — and shipping things people actually use.
+        New-grad software engineer (UC Santa Cruz, B.A. &amp; B.S. Computer Science, cum laude, 3.91 GPA).
+        I build cross-platform mobile apps and backend systems, and I'm now working on robot learning data at Tesla Optimus
+        while co-founding Bulletin.
       </p>
       <div class="cta reveal">
         <a class="btn primary" href="#projects">View projects</a>
         <a class="btn" href="assets/resume.pdf">Résumé</a>
         <a class="btn ghost" href="https://github.com/nmakranyi5" rel="noopener">GitHub ↗</a>
       </div>
-      <p class="status reveal"><span class="dot"></span> Open to full-time SWE roles · Available now</p>
+      <p class="status reveal"><span class="dot"></span> Foster City, CA · Open to software engineering roles</p>
     </section>
 
     <section id="projects">
       <h2><span class="num">01</span> Projects</h2>
       <div class="grid">
-        <!-- PLACEHOLDER: replace each card; duplicate as needed -->
         <article class="card reveal">
-          <h3>Project One</h3>
-          <p>One-sentence problem statement and what you built. Mention a measurable result (latency, users, test coverage).</p>
-          <ul class="tags"><li>TypeScript</li><li>React</li><li>Node.js</li><li>PostgreSQL</li></ul>
-          <div class="links"><a href="#" rel="noopener">Code ↗</a><a href="#" rel="noopener">Live ↗</a></div>
+          <h3>Lockdin</h3><span class="when">Dec 2025 – Present</span>
+          <ul class="bul"><li>Cross-platform task app (iOS, Android, web) with streaks, XP, daily goals, and repeating tasks.</li><li>Offline-first Supabase sync layer with auth, row-level security, and 10 SQL migrations.</li><li>Friends, leaderboard, and push nudges with task data kept private; piloted with 15 users.</li><li>Notification planner within iOS's 64-notification limit; tested with SQL security checks, unit tests, and Playwright E2E, with GitHub Actions CI deploys.</li></ul>
+          <ul class="tags"><li>React Native (Expo)</li><li>TypeScript</li><li>Supabase</li><li>GitHub Actions</li></ul>
         </article>
         <article class="card reveal">
-          <h3>Project Two</h3>
-          <p>A systems or backend project: what tradeoffs you made and what you learned scaling or testing it.</p>
-          <ul class="tags"><li>Python</li><li>FastAPI</li><li>Docker</li><li>Redis</li></ul>
-          <div class="links"><a href="#" rel="noopener">Code ↗</a></div>
+          <h3>Lunify</h3><span class="when">Dec 2025 – Present</span>
+          <ul class="bul"><li>iOS and web moon-phase app shipped via TestFlight, showing live phase, illumination, and moonrise/moonset from Apple WeatherKit through a Vercel backend, with an on-device fallback when the API is down.</li><li>Designed the UI, including a custom SVG moon that matches real illumination, and automated web deploys to GitHub Pages with GitHub Actions.</li></ul>
+          <ul class="tags"><li>React Native</li><li>Expo</li><li>TypeScript</li><li>Vercel</li></ul>
         </article>
         <article class="card reveal">
-          <h3>Project Three</h3>
-          <p>Capstone, hackathon, or open-source contribution. Say what your role was and who used it.</p>
-          <ul class="tags"><li>Java</li><li>Spring</li><li>AWS</li><li>CI/CD</li></ul>
-          <div class="links"><a href="#" rel="noopener">Code ↗</a></div>
+          <h3>Bulletin</h3><span class="when">Oct 2026 – Present</span>
+          <ul class="bul"><li>Swipe-based hiring app matching blue-collar workers and contractors without AI screening.</li><li>Anti-ghosting mechanics: responsiveness stats, response timers, and a capped likes budget.</li><li>Shipped an iOS TestFlight build with Supabase auth; validated the concept with a SCORE mentor.</li></ul>
+          <ul class="tags"><li>React Native</li><li>Expo</li><li>Supabase</li></ul>
         </article>
       </div>
     </section>
 
     <section id="experience">
-      <h2><span class="num">02</span> Experience &amp; Education</h2>
+      <h2><span class="num">02</span> Experience</h2>
       <ol class="timeline">
-        <!-- PLACEHOLDER -->
         <li class="reveal">
-          <span class="when">Summer 2025</span>
-          <h3>Software Engineering Intern · Company</h3>
-          <p>Built X using Y, resulting in Z. Wrote tests, reviewed PRs, and shipped to production.</p>
+          <span class="when">Jul 2026 – Present</span>
+          <h3>Data Collection Operator, Optimus · Tesla</h3><p class="sub">Palo Alto, CA</p>
+          <ul class="bul"><li>Collected 1,000+ high-quality data clips across diverse task categories, ensuring dataset quality for robot learning models.</li><li>Partnered with engineers to evaluate Optimus performance, writing detailed assessments and feedback.</li><li>Authored a 16+ step onboarding guide (setup, QA, troubleshooting), well received by the training coordinator, closing a gap left by verbal-only onboarding during rapid team scaling.</li></ul>
         </li>
         <li class="reveal">
-          <span class="when">2022 – 2026</span>
-          <h3>B.S. Computer Science · University</h3>
-          <p>GPA, honors, relevant coursework: Data Structures, Algorithms, Operating Systems, Databases, Distributed Systems.</p>
+          <span class="when">Oct 2026 – Present</span>
+          <h3>Co-Founder &amp; Lead Developer · Bulletin</h3><p class="sub">Foster City, CA</p>
+          <ul class="bul"><li>Building a swipe-based hiring app for blue-collar workers and contractors; shipped an iOS TestFlight build with Supabase auth.</li></ul><ul class="tags"><li>React Native</li><li>Expo</li><li>Supabase</li></ul>
+        </li>
+        <li class="reveal">
+          <span class="when">Jan 2025 – Jun 2025</span>
+          <h3>Software Engineering Intern · AnyLog</h3><p class="sub">Santa Cruz, CA (UCSC capstone)</p>
+          <ul class="bul"><li>Co-developed a decentralized federated learning platform for privacy-preserving machine learning across distributed nodes.</li><li>Reduced node initialization time by ~20% with multithreaded initialization and training routines.</li><li>Migrated the backend from Flask to FastAPI, improving throughput and analysis tracking.</li><li>Helped containerize the platform with Docker for scalable, reproducible node deployments.</li><li>Presented architecture and live demos at the UCSC Baskin Engineering Undergraduate Project Showcase, highlighting healthcare and IoT applications.</li></ul><ul class="tags"><li>Python</li><li>FastAPI</li><li>Flask</li><li>Docker</li></ul>
+        </li>
+      </ol>
+      <h2 class="sub-h"><span class="num">&nbsp;</span> Education</h2>
+      <ol class="timeline">
+        <li class="reveal">
+          <span class="when">Jun 2026</span>
+          <h3>University of California, Santa Cruz</h3>
+          <p class="sub">B.A. Computer Science &amp; B.S. Computer Science: Game Design · Cum Laude · GPA 3.91</p>
+          <p>Coursework: Data Structures &amp; Algorithms, Software Engineering, Machine Learning, Computer Networking.</p>
         </li>
       </ol>
     </section>
@@ -91,24 +96,24 @@
     <section id="skills">
       <h2><span class="num">03</span> Skills</h2>
       <div class="skills">
-        <div class="reveal"><h3>Languages</h3><ul class="tags"><li>Python</li><li>TypeScript</li><li>Java</li><li>C/C++</li><li>SQL</li></ul></div>
-        <div class="reveal"><h3>Web &amp; Backend</h3><ul class="tags"><li>React</li><li>Node.js</li><li>REST</li><li>GraphQL</li><li>PostgreSQL</li></ul></div>
-        <div class="reveal"><h3>Tools &amp; Infra</h3><ul class="tags"><li>Git</li><li>Docker</li><li>AWS</li><li>GitHub Actions</li><li>Linux</li></ul></div>
+        <div class="reveal"><h3>Languages</h3><ul class="tags"><li>Python</li><li>C</li><li>C++</li><li>C#</li><li>Java</li><li>JavaScript</li><li>TypeScript</li><li>SQL</li><li>HTML/CSS</li></ul></div>
+        <div class="reveal"><h3>Frameworks</h3><ul class="tags"><li>React Native</li><li>React</li><li>Expo</li><li>Node.js</li><li>FastAPI</li><li>Flask</li></ul></div>
+        <div class="reveal"><h3>Data &amp; Tools</h3><ul class="tags"><li>Supabase</li><li>PostgreSQL</li><li>Git</li><li>GitHub Actions</li><li>Docker</li><li>Playwright</li><li>Vercel</li><li>WSL</li><li>Bash</li><li>Cisco Packet Tracer</li></ul></div>
       </div>
     </section>
 
     <section id="contact" class="contact">
       <h2><span class="num">04</span> Let's talk</h2>
-      <p class="lead">I'm looking for my first full-time engineering role. The best way to reach me is email.</p>
+      <p class="lead">I'm looking for software engineering roles. The best way to reach me is email.</p>
       <div class="cta">
-        <a class="btn primary" href="mailto:you@example.com">you@example.com</a>
-        <a class="btn" href="https://www.linkedin.com/in/yourname" rel="noopener">LinkedIn ↗</a>
+        <a class="btn primary" href="mailto:nmakranyi@gmail.com">nmakranyi@gmail.com</a>
+        <a class="btn" href="https://www.linkedin.com/in/nikolas-makranyi-8102b2261/" rel="noopener">LinkedIn ↗</a>
         <a class="btn ghost" href="https://github.com/nmakranyi5" rel="noopener">GitHub ↗</a>
       </div>
     </section>
   </main>
 
-  <footer>© <span id="year"></span> Your Name · Built with plain HTML, CSS &amp; JS</footer>
+  <footer>© <span id="year"></span> Nikolas Makranyi · Built with plain HTML, CSS &amp; JS</footer>
   <script src="assets/main.js"></script>
 </body>
 </html>

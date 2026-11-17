@@ -34,7 +34,7 @@ h3{margin:0 0 .4rem;font-size:1.1rem}
 .tags li{font:500 .78rem ui-monospace,Menlo,monospace;padding:.2rem .6rem;border-radius:999px;background:color-mix(in srgb,var(--accent) 12%,transparent);color:var(--accent)}
 .links{display:flex;gap:1rem;margin-top:1rem;font-size:.92rem}.links a{color:var(--muted);text-decoration:none}.links a:hover{color:var(--accent)}
 .timeline{list-style:none;margin:0;padding:0 0 0 1.4rem;border-left:2px solid var(--border)}
-.timeline li{position:relative;padding-bottom:1.8rem}.timeline li::before{content:"";position:absolute;left:calc(-1.4rem - 6px);top:.45rem;width:10px;height:10px;border-radius:50%;background:var(--accent)}
+.timeline>li{position:relative;padding-bottom:1.8rem}.timeline>li::before{content:"";position:absolute;left:calc(-1.4rem - 6px);top:.45rem;width:10px;height:10px;border-radius:50%;background:var(--accent)}
 .when{font:.82rem ui-monospace,Menlo,monospace;color:var(--accent)}.timeline p{color:var(--muted);margin:.2rem 0}
 .skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1.5rem}
 .contact{text-align:center;padding-bottom:3rem}.contact .lead{margin:0 auto}.contact .cta{justify-content:center}
@@ -42,3 +42,8 @@ footer{padding-top:2rem;padding-bottom:2.5rem;color:var(--muted);font-size:.88re
 .reveal{opacity:0;transform:translateY(14px);transition:opacity .6s,transform .6s}.reveal.in{opacity:1;transform:none}
 @media (max-width:600px){.nav nav{display:none}section{padding-top:3.5rem}.hero{padding-top:4.5rem}}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto}.reveal{opacity:1;transform:none}}
+.bul{margin:.5rem 0 1rem;padding-left:1.1rem;color:var(--muted);font-size:.95rem}.bul li{margin:.3rem 0}
+.card .when{margin-bottom:.4rem}.card .bul{flex:1}
+.sub{color:var(--text)!important;font-size:.95rem;margin:0 0 .2rem}
+.timeline .tags{margin-top:.2rem}
+.sub-h{margin-top:2.5rem}
